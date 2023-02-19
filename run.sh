@@ -1,2 +1,2 @@
-cd Cow-Bounce
+cd /opt/Cow-Bounce/
 python3 CowBounce.py
