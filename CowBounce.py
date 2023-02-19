@@ -15,6 +15,10 @@ FPS = 60
  
 FramePerSec = pygame.time.Clock()
 
+if not sys.warnoptions:
+    import warnings
+    warnings.simplefilter("ignore")
+   
 def game():
     background = pygame.image.load("background.jpg")
     displaysurface = pygame.display.set_mode((WIDTH, HEIGHT))
