@@ -7,22 +7,18 @@
 
 ### Installation:
 
-Clone this repository in terminal, to your home directory:
-
-'''
+- Clone this repository in terminal, to your home directory:
+```
 git clone https://github.com/TomTheCodingGuy/Cow-Bounce.git
-'''
-
-Execute the install.sh file using the following commands:
-
-'''
+```
+- Execute the install.sh file using the following commands:
+```
 cd /path/to/home/directory/Cow-Bounce
 
 sudo chmod +x ./install.sh
 
 ./install.sh
-'''
-
+```
 - Now there should be a folder in /opt called Cow-Bounce, also containing the contents of this repository.
 - Therefore, you can delete the CowBounce folder in your home directory.
 - To run the app from terminal, type 'cowbounce'.
