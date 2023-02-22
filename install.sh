@@ -3,18 +3,18 @@ version=0.0.1
 
 echo "Creating Directories..."
 rm -rf /tmp/Cow-Bounce
-mkdir -p /tmp/ || error "Could not make directory!"
+mkdir -p /tmp/
 cd /tmp/
 echo "Complete!"
 
 # Downloading Git-Hub Repository
 echo "Downloading Repository..."
-git_clone https://github.com/TomTheCodingGuy/Cow-Bounce.git || error 'Failed to clone repository!'
+git clone https://github.com/TomTheCodingGuy/Cow-Bounce.git || error 'Failed to clone repository!'
 echo "Complete!"
 
 # Move files to /opt
 echo "Moving Files..."
-sudo mv -f /tmp/Cow-Bounce/ /opt/Cow-Bounce/ || error "Failed to move source folder to /opt!"
+sudo mv -f /tmp/Cow-Bounce/ /opt/Cow-Bounce/
 echo "Complete!"
 
 # Installing PyGame Python Library
