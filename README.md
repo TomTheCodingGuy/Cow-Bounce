@@ -13,7 +13,7 @@ git clone https://github.com/TomTheCodingGuy/Cow-Bounce.git
 ```
 - Execute the install.sh file using the following commands:
 ```
-cd /path/to/home/directory/Cow-Bounce
+cd Cow-Bounce
 
 sudo chmod +x ./install.sh
 
