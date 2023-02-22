@@ -9,7 +9,7 @@ echo "Complete!"
 
 # Downloading Git-Hub Repository
 echo "Downloading Repository..."
-git clone https://github.com/TomTheCodingGuy/Cow-Bounce.git || error 'Failed to clone repository!'
+git clone https://github.com/TomTheCodingGuy/Cow-Bounce.git
 echo "Complete!"
 
 # Move files to /opt
