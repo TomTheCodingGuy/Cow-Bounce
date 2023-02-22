@@ -7,13 +7,13 @@
 
 ### Installation:
 
-- Clone this repository in terminal, to your home directory.
+Clone this repository in terminal, to your home directory:
 
 '''
 git clone https://github.com/TomTheCodingGuy/Cow-Bounce.git
 '''
 
-- Execute the install.sh file using the following commands.
+Execute the install.sh file using the following commands:
 
 '''
 cd /path/to/home/directory/Cow-Bounce
