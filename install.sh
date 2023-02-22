@@ -17,9 +17,6 @@ echo "Moving Files..."
 sudo mv -f /tmp/Cow-Bounce/ /opt/Cow-Bounce/ || error "Failed to move source folder to /opt!"
 echo "Complete!"
 
-# Install some packages that are necessary to run this app - no need for "error", as the install_packages function already handles errors.
-install_packages python3 || exit 1
-
 # Installing PyGame Python Library
 echo "Installing PyGame..."
 pip install pygame || error "Failed to install PyGame"
@@ -38,7 +35,7 @@ sudo mkdir -p /usr/local/share/applications
 echo "[Desktop Entry]
 Name=CowBounce!
 Comment=Fun Vertical PLatformer!
-Icon=$(dirname "$0")/icon-64.png
+Icon=/opt/Cow-Bounce/icon-64.png
 Exec=cowbounce
 Path=/opt/Cow-Bounce/
 Type=Application
