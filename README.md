@@ -42,6 +42,12 @@ sudo chmod +x ./uninstall.sh
 ```
 - This should remove all the files and directories
 
+### Issues:
+
+- If you encounter any isues with installing, uninstalling or running the app, please raise an issue in the Issues section of this repository.
+- Try re-cloning this repository, to make sure all of the files are up to date. 
+- I have fully tested it on a Raspberry Pi, but I am happy to help.
+
 ### Credits:
 
 - Made by TomTheCodingGuy
