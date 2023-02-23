@@ -2,7 +2,7 @@
 ## Pygame vertical platformer
 
 - This repository contains the source code, scripts and images for Cow Bounce, a fun vertical platformer game.
-- As this game was made for Pi-Apps(https://github.com/Botspot/pi-apps.git), it is only fully tested on a Raspberry Pi.
+- As this game was made for Pi-Apps (https://github.com/Botspot/pi-apps.git), it is only fully tested on a Raspberry Pi.
 - It may work on other linux or debian systems, but not on any other operating systems, such as Windows.
 - Requires Python3 pre-installed (already done on Raspberry Pi)
 
@@ -24,9 +24,9 @@ sudo chmod +x ./install.sh
 ```
 - Now there should be a folder in /opt called Cow-Bounce, also containing the contents of this repository.
 - Therefore, you can delete the Cow-Bounce folder in your home directory.
-- To run the app from terminal, type 'cowbounce'.
+- To run the app from terminal, type ``cowbounce``.
 - It should also appear in your Games Menu.
-- Note: When I first installed it as a test on my Raspberry Pi, the game icon(icon-64.png) did not come up straight away. After rebooting however, it apppeared.
+- Note: When I first installed it as a test on my Raspberry Pi, the game icon (icon-64.png) did not come up straight away. After rebooting however, it apppeared.
 
 ### Uninstall:
 
