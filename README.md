@@ -45,8 +45,8 @@ sudo chmod +x ./uninstall.sh
 ### Issues:
 
 - If you encounter any isues with installing, uninstalling or running the app, please raise an issue in the Issues section of this repository.
-- Try re-cloning this repository, to make sure all of the files are up to date. 
-- I have fully tested it on a Raspberry Pi, but I am happy to help.
+- Try uninstalling (see above), re-cloning this repository,and re-installing (also above), to make sure all of the files are up to date. 
+- I have fully tested it on a Raspberry Pi, but I am happy to help with any problems you might encounter.
 
 ### Credits:
 
