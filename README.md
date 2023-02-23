@@ -15,9 +15,11 @@ git clone https://github.com/TomTheCodingGuy/Cow-Bounce.git
 - Execute the install.sh file using the following commands:
 ```
 cd Cow-Bounce
-
+```
+```
 sudo chmod +x ./install.sh
-
+```
+```
 ./install.sh
 ```
 - Now there should be a folder in /opt called Cow-Bounce, also containing the contents of this repository.
@@ -31,9 +33,11 @@ sudo chmod +x ./install.sh
 - I created a uninstall script, located in this repository, so you can use the following commands to execute it:
 ```
 cd /opt/Cow-Bounce
-
+```
+```
 sudo chmod +x ./uninstall.sh
-
+```
+```
 ./uninstall.sh
 ```
 - This should remove all the files and directories
