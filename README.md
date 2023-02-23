@@ -46,4 +46,3 @@ sudo chmod +x ./uninstall.sh
 
 - Made by TomTheCodingGuy
 - Thanks to Blooket (https://www.blooket.com) for the cow image.
-- Thanks to CodersLegacy (https://coderslegacy.com/python/pygame-platformer-game-development) for providing some source code.
