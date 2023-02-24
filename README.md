@@ -14,7 +14,7 @@ git clone https://github.com/TomTheCodingGuy/Cow-Bounce.git
 ```
 - Execute the install.sh file using the following commands:
 ```
-cd Cow-Bounce
+cd Cow-Bounce/Scripts
 ```
 ```
 sudo chmod +x ./install.sh
@@ -38,7 +38,7 @@ sudo chmod +x ./install.sh
 
 - I created a uninstall script, located in this repository, so you can use the following commands to execute it:
 ```
-cd /opt/Cow-Bounce
+cd /opt/Cow-Bounce/Scripts
 ```
 ```
 sudo chmod +x ./uninstall.sh
