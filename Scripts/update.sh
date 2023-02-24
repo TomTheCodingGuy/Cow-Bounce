@@ -13,5 +13,5 @@ cd
 git clone https://github.com/TomTheCodingGuy/Cow-Bounce.git
 cd Cow-Bounce/Scripts
 sudo chmod +x ./install.sh
-./uninstall.sh
+./install.sh
 echo "Complete!"
