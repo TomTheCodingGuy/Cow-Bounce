@@ -19,7 +19,7 @@ echo "Complete!"
 
 # Installing PyGame Python Library
 echo "Installing PyGame..."
-pip install pygame || error "Failed to install PyGame"
+pip install pygame
 echo "Complete!"
 
 #Create cowbounce command
@@ -35,7 +35,7 @@ sudo mkdir -p /usr/local/share/applications
 echo "[Desktop Entry]
 Name=Cow Bounce!
 Comment=Fun Vertical PLatformer!
-Icon=/opt/Cow-Bounce/images/icon-64.png
+Icon=/opt/Cow-Bounce/Images/icon-64.png
 Exec=cowbounce
 Path=/opt/Cow-Bounce/
 Type=Application
