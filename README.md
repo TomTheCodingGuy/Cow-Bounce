@@ -28,6 +28,12 @@ sudo chmod +x ./install.sh
 - It should also appear in your Games Menu.
 - Note: When I first installed it as a test on my Raspberry Pi, the game icon (icon-64.png) did not come up straight away. After rebooting however, it apppeared.
 
+### Usage:
+
+- Space to jump.
+- Arrow keys to move left and right.
+- This game can also be used as a Pygame tutorial, if you have a look at the source code file "CowBounce.py". It includes many of the basic uses of the Python library
+
 ### Uninstall:
 
 - I created a uninstall script, located in this repository, so you can use the following commands to execute it:
@@ -47,6 +53,11 @@ sudo chmod +x ./uninstall.sh
 - If you encounter any isues with installing, uninstalling or running the app, please raise an issue in the Issues section of this repository.
 - Try uninstalling (see above), re-cloning this repository, and re-installing (also above), to make sure all of the files are up to date. 
 - I have fully tested it on a Raspberry Pi, but I am happy to help with any problems you might encounter.
+
+### Suggestions:
+
+- If you have any suggestions on what to do next, post something in the Issues section of this repository.
+- I have a few ideas myself for what to add into the game next...
 
 ### Credits:
 
