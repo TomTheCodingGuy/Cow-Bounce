@@ -33,7 +33,7 @@ sudo chmod +x /usr/local/bin/cowbounce
 #Menu shortcut
 sudo mkdir -p /usr/local/share/applications
 echo "[Desktop Entry]
-Name=CowBounce!
+Name=Cow Bounce!
 Comment=Fun Vertical PLatformer!
 Icon=/opt/Cow-Bounce/icon-64.png
 Exec=cowbounce
