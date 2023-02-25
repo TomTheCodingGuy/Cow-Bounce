@@ -87,7 +87,7 @@ def game():
         def __init__(self, pos):
             super().__init__()
 
-            self.image = pygame.image.load("Coin.png")
+            self.image = pygame.image.load("./Images/Coin.png")
             self.rect = self.image.get_rect()
 
             self.rect.topleft = pos
