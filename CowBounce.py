@@ -12,7 +12,12 @@ WIDTH = 400
 ACC = 0.5
 FRIC = -0.09
 FPS = 60
- 
+
+background = pygame.image.load("./Images/background.jpg")
+displaysurface = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("Cow Bounce!!")
+bounce = pygame.mixer.Sound("bounce.mp3")
+    
 FramePerSec = pygame.time.Clock()
 
 if not sys.warnoptions:
@@ -20,12 +25,6 @@ if not sys.warnoptions:
     warnings.simplefilter("ignore")
     
 def game():
-    background = pygame.image.load("./Images/background.jpg")
-    displaysurface = pygame.display.set_mode((WIDTH, HEIGHT))
-    pygame.display.set_caption("Cow Bounce!!")
-    
-    pygame.mixer.init()
-    bounce = pygame.mixer.Sound("bounce.mp3")
     
     class Player(pygame.sprite.Sprite):
         def __init__(self):
