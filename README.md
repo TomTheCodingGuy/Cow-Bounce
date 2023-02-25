@@ -48,6 +48,21 @@ sudo chmod +x ./uninstall.sh
 ```
 - This should remove all the files and directories
 
+### Update:
+
+- I created an update script, which basically just uninstalls the existing game and re-installing it as to get the latest features from this repository.
+- Run the following commands:
+```
+cd /opt/Cow-Bounce/Scripts
+```
+```
+sudo chmod +X ./update.sh
+```
+```
+./update.sh
+```
+- Now you should have the latest version of the game.
+
 ### Issues:
 
 - If you encounter any isues with installing, uninstalling or running the app, please raise an issue in the Issues section of this repository.
