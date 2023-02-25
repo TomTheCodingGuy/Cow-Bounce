@@ -20,7 +20,7 @@ if not sys.warnoptions:
     warnings.simplefilter("ignore")
     
 def game():
-    background = pygame.image.load("background.jpg")
+    background = pygame.image.load("./Images/background.jpg")
     displaysurface = pygame.display.set_mode((WIDTH, HEIGHT))
     pygame.display.set_caption("Cow Bounce!!")
     
@@ -30,7 +30,7 @@ def game():
     class Player(pygame.sprite.Sprite):
         def __init__(self):
             super().__init__() 
-            self.image = pygame.image.load("cow.png")
+            self.image = pygame.image.load("./Images/cow.png")
             self.surf = pygame.transform.scale(self.image,(30,30))
             self.rect = self.surf.get_rect()
        
@@ -104,7 +104,7 @@ def game():
             if width == 0:
                 width = random.randint(50, 120)
      
-            self.image = pygame.image.load("platform.png")
+            self.image = pygame.image.load("./Images/platform.png")
             self.surf = pygame.transform.scale(self.image, (width, height))
             self.rect = self.surf.get_rect(center = (random.randint(0,WIDTH-10),
                                                      random.randint(0, HEIGHT-30)))
